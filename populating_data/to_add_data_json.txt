@@ -1,0 +1,798 @@
+-- apache maven 3.8.6
+-- elastich 7.16.3
+-- java 11
+
+
+	----------------------------------------------------------------------------------Da Nang-------------------------------------------------------------------------------------------
+- Sun World Ba Na Hills Ticket
+{
+    "service" : {
+        "name" : "Sun World Ba Na Hills Ticket",
+        "address" : "Ba Na Hills, Hoà Phú, Hòa Vang, Da Nang, Vietnam",
+        "description" : "Embark on a thrilling trip to Ba Na Hills, a beautiful area that has the look of a medieval castle from the outside. Marvel at the palatial architectural buildings while meandering on the meticulously decorated walkways. Enjoy sightseeing from a cable car as you travel to the mountain top and take in the marvelous views of Da Nang from afar. Walk along the Golden Bridge and take pictures of the gigantic hands holding up the bridge together with your friends. Explore the nearby Linh Ung Pagoda and pay your respect to the towering Buddhist statue. Get the thrills of a lifetime with more than 100 different kinds of rides at Fantasy Land, such as the Alpine coaster where you can feel the rush as you glide through the beautiful landscape.",
+        "note" : "Hoi An - Marseille cable car: 6:45 AM - 1:00 PM",
+        "idArea" : 1,
+        "idCategory" : 1
+    },
+    "ticket" : [
+        {
+            "valueTicket" : 835000,
+            "typeTicket" : "Admission Ticket",
+            "noteTicket" : "Free of charge for travelers under 100 cm in height",
+            "amountTicket" : 200
+        },
+        {
+            "valueTicket" : 970000,
+            "typeTicket" : "Combo Admission Ticket & Buffet Lunch",
+            "noteTicket" : "Free of charge for travelers under 100 cm in height.",
+            "amountTicket" : 200
+        },
+        {
+            "valueTicket" : 165000,
+            "typeTicket" : "Roundtrip Shuttle Bus",
+            "noteTicket" : "Free of charge for children under 100 cm of height (shared seat with adults). Transportation by 16-seater minivan.",
+            "amountTicket" : 200
+        }
+    ],
+    "schedule" : [],
+    "galleries" : [
+        {
+            "id": 1,
+            "url": "",
+            "type": "image"
+        },
+        {
+            "id": 2,
+            "url": "",
+            "type": "image"
+        },
+        {
+            "id": 3,
+            "url": "",
+            "type": "image"
+        },
+        {
+            "id": 4,
+            "url": "",
+            "type": "image"
+        },
+        {
+            "id": 5,
+            "url": "",
+            "type": "image"
+        }
+    ]
+}
+
+-- Half-Day Da Nang Street Walking Food Tour
+
+{
+    "service" : {
+        "name" : "Half-Day Da Nang Street Walking Food Tour",
+        "address" : "No. 68 Pasteur, Hai Chau, Da Nang",
+        "description" : "We are here to offer you the Da Nang Street Walking Food Tour which can help you discover Da Nang in an interesting and healthy way – walking and enjoying the best street food around the city with our enthusiastic, funny, and friendly guides. You’ll visit several food stops from restaurants to shops to a local living room, to sample delicious samples of Da Nang street foods.",
+        "event" : "",
+	"note" : "Hoi An - Marseille cable car: 6:45 AM - 1:00 PM",
+        "idArea" : 1,
+        "idCategory" : 5
+    },
+    "ticket" : [
+        {
+            "valueTicket" : 623943,
+            "typeTicket" : "Adult",
+            "noteTicket" : "age 10 and over",
+            "amountTicket" : 200
+        },
+        {
+            "valueTicket" : 374366,
+            "typeTicket" : "Child",
+            "noteTicket" : "Ages 5–9",
+            "amountTicket" : 200
+        }
+    ],
+    "schedule" : [],
+    "galleries" : [
+    {
+        "id": 51,
+        "url": "",
+        "type": "image"
+    },
+    {
+        "id": 52,
+        "url": "",
+        "type": "image"
+    },
+    {
+        "id": 53,
+        "url": "",
+        "type": "image"
+    },
+    {
+        "id": 54,
+        "url": "",
+        "type": "image"
+    }
+]
+}
+ -- Danang Golden Bay 2D1N Voucher
+{
+    "service" : {
+        "name" : "Danang Golden Bay 2D1N Voucher",
+        "address" : "No. 68 Pasteur, Hai Chau, Da Nang",
+        "description" : "An ideal starting point to discover the Danang city dynamic energy, the charming of Danang beach, the verdant Son Tra Peninsula. Spacious rooms with stunning views of the poetic river, ever-evolving skyline or the Danang Bay",
+        "event" : "Inspired by the finest world heritages features the luxury touch of gold, Danang Golden Bay evokes a sense of serenity within Danang Bay, where traditional Vietnamese ambience and sophisticatedly modern architecture are effortlessly blended into one. Asian-inspired dining options and the world’s a highest and largest 24K golden infinitive swimming pool offering unobstructed views of Danang city complete the experience.",
+	"note" : "Surcharge for room upgrade to Deluxe: 100,000 VND/night",
+        "idArea" : 1,
+        "idCategory" : 3
+    },
+    "ticket" : [
+        {
+            "valueTicket" : 1200000,
+            "typeTicket" : "Superior Room",
+            "noteTicket" : "1 night",
+            "amountTicket" : 200
+        }
+    ],
+    "schedule" : [],
+    "galleries" : [
+    {
+        "id": 55,
+        "url": "",
+        "type": "image"
+    },
+    {
+        "id": 56,
+        "url": "",
+        "type": "image"
+    },
+    {
+        "id": 57,
+        "url": "",
+        "type": "image"
+    },
+    {
+        "id": 58,
+        "url": "",
+        "type": "image"
+    },
+    {
+        "id": 59,
+        "url": "",
+        "type": "image"
+    }
+]
+}
+
+-- Seafood Dinner, Night Market, Sightseeing Night Tour And Cruise Trip
+{
+    "service" : {
+        "name" : "Seafood Dinner, Night Market, Sightseeing Night Tour And Cruise Trip",
+        "address" : "78 Bach Dang, Hai Chau 1, Hai Chau, Da Nang",
+        "description" : "Do you think Da Nang is very boring at night? Our tour will give you a second thought. Why don't have a seafood dinner, hang out at the night market, hop on a cruise sailing across the Han River, drive through the most famous bridges, check in icons of Da Nang at night, and hang out with locals? Da Nang by night is a MUST activity when visiting this coastal city. You will see the thrilling views while riding with experienced guides on motorbikes, enjoy the best-hidden food gems and explore a typical Danang life.",
+        "event" : "6.00 PM: Pick up guests at hotels within city center. Check in the top icons of Da Nang at night: Dragon Bridge, Han Bridge, love bridge, DHC Marina, Apec Park",
+	"note" : "9.00 PM: Tour ends. Drop off at hotels.",
+        "idArea" : 1,
+        "idCategory" : 5
+    },
+    "ticket" : [
+        {
+            "valueTicket" : 748731,
+            "typeTicket" : "Adult",
+            "noteTicket" : "age 10 and over",
+            "amountTicket" : 200
+        },
+	{
+            "valueTicket" : 499154,
+            "typeTicket" : "Child",
+            "noteTicket" : "Ages 5–9",
+            "amountTicket" : 200
+        }
+    ],
+    "schedule" : [],
+    "galleries" : [
+    {
+        "id": 60,
+        "url": "",
+        "type": "image"
+    },
+    {
+        "id": 61,
+        "url": "",
+        "type": "image"
+    },
+    {
+        "id": 62,
+        "url": "",
+        "type": "image"
+    },
+    {
+        "id": 63,
+        "url": "",
+        "type": "image"
+    }
+]
+}
+
+-- Art in Paradise 3D Museum Ticket in Da Nang
+{
+    "service" : {
+        "name" : "Art in Paradise 3D Museum Ticket in Da Nang",
+        "address" : "Lot C2-10 Tran Nhan Tong Son Tra Da Nang Vietnam",
+        "description" : "Enter a magical world as you visit the famous Art in Paradise 3D Museum in Da Nang! Unleash your creativity and see some of the most creative works of art in Vietnam. Unlike other museums that refrain you from taking photos, this museum encourages you to do creative poses in all the paintings. Strike your best post and snap photos of you with the remarkable backgrounds and paintings.",
+        "event" : "Enjoy a fun and exciting afternoon at the first 3D museum art in Danang. Explore the various themed zones that allow you to discover the world. Strike a pose and take photos with the Fuji Mountain",
+	"note" : "Please take off your shoes before entering the museum. Food, drinks, pets, and strollers are not allowed inside the museum",
+        "idArea" : 1,
+        "idCategory" : 1
+    },
+    "ticket" : [
+        {
+            "valueTicket" : 120000,
+            "typeTicket" : "Adult",
+            "noteTicket" : "height of 131 cm and over required",
+            "amountTicket" : 200
+        },
+	{
+            "valueTicket" : 90000,
+            "typeTicket" : "Child",
+            "noteTicket" : "height of 100-130 cm required",
+            "amountTicket" : 200
+        }
+    ],
+    "schedule" : [],
+    "galleries" : [
+    {
+        "id": 65,
+        "url": "",
+        "type": "image"
+    },
+    {
+        "id": 66,
+        "url": "",
+        "type": "image"
+    },
+    {
+        "id": 67,
+        "url": "",
+        "type": "image"
+    },
+    {
+        "id": 68,
+        "url": "",
+        "type": "image"
+    }
+]
+}
+	----------------------------------------------------------------------------------Nha Trang-------------------------------------------------------------------------------------------
+- Day Tour | Hon Tam Island Mud Bath Experience (From Nha Trang)
+{
+    "service" : {
+        "name" : "Day Tour | Hon Tam Island Mud Bath Experience (From Nha Trang)",
+        "address" : "MerPerle Hon Tam Resort, Hon Tam Island, Vinh Nguyen, Nha Trang, Khanh Hoa Province, Vietnam",
+        "description" : "Come to Hon Tam Island and treat yourself to a rejuvenating mud bath. In the morning, your guide will pick you up at your hotel in downtown Nha Trang, then you will take a speedboat to Hon Tam Island. Upon arrival, on-site staff will help you transfer to MerPerle Hon Tam Resort. The resort is fully equipped with facilities such as mud baths, swimming pools, and jacuzzis. Welcome drinks and tea are available on-site as well. You can also opt for a full-body massage (at your own expense) to soothe your body and mind and relieve your muscle knots. Sit back, relax, and enjoy a peaceful time on Hon Tam Island!",
+	    "event" : "08:30 Pick-up at hotel or discussed point in Nha Trang city center. Take a speedboat to Hon Tam Island. Then, move to Hon Viet Restaurant to enjoy a delicious Vietnamese lunch. For sea swimming included option, you have free time to swim at Hon Tam beach, before having lunch. After lunch, transfer to mud bath zone by buggy. Enjoy a comfortable mud bath package, with services such as hot mud bath, On tuyen thuy lieu phap system, infinity and Jacuzzi pool, mineral waterfall. Unwind yourself in the resort's beautiful scenery. 15:00 Tour ends. Return to pick-up point.",        
+	    "note" : "In the event of a change in itinerary or cancellation due to traffic, weather, or any other unforeseen circumstances, travelers will be informed 1 day(s) (at 15:00 local time) prior to departure by e-mail",
+        "idArea" : 4,
+        "idCategory" : 3
+    },
+    "ticket" : [
+        {
+            "valueTicket" : 477000,
+            "typeTicket" : "Hon Tam Mud Bath + Swimming Pool",
+            "noteTicket" : "",
+            "amountTicket" : 200
+        },
+        {
+            "valueTicket" : 612000,
+            "typeTicket" : "Hon Tam Mud Bath + Swimming Pool + Sea Swimming",
+            "noteTicket" : "",
+            "amountTicket" : 200
+        }
+    ],
+    "schedule" : [],
+    "galleries" : [
+        {
+            "id": 6,
+            "url": "",
+            "type": "image"
+        },
+        {
+            "id": 7,
+            "url": "",
+            "type": "image"
+        },
+        {
+            "id": 8,
+            "url": "",
+            "type": "image"
+        },
+        {
+            "id": 9,
+            "url": "",
+            "type": "image"
+        }
+    ]
+}
+
+-- Mường Thanh Luxury Hotel Nha Trang & Round-trip Airport Transfer Combo | Vietnam
+{
+    "service" : {
+        "name" : "Mường Thanh Luxury Hotel Nha Trang & Round-trip Airport Transfer Combo | Vietnam",
+        "address" : "60 Tran Phu, Loc Tho ward, Nha Trang city, Khanh Hoa province",
+        "description" : "Visit the famous Tran Phu street in the coastal city of Nha Trang Bay, where the hotel is situated in. Have a relaxing and comfortable stay at Mường Thanh Luxury Hotel, complete with 458 spacious, comfortable, and elegantly designed guest rooms. Head to the hotel’s spa, gym, swimming pool, and bar. Get a good deal with this combo accommodation with buffet breakfast & round-trip transfer from/to Cam Ranh Airport",
+	"event" : "",        
+	"note" : "No cancellation",
+    "idArea" : 4,
+    "idCategory" : 3
+    },
+    "ticket" : [
+        {
+            "valueTicket" : 3022000,
+            "typeTicket" : "[3D2N Stay] Mường Thanh Luxury Hotel & Round-trip Airport Transfer Combo",
+            "noteTicket" : "This package includes the price of a room for 2 adults. Children under the height of 1 m (100 cm) can stay with their parents free of charge",
+            "amountTicket" : 200
+        },
+        {
+            "valueTicket" : 4109000,
+            "typeTicket" : "[4D3N Stay] Mường Thanh Luxury Hotel & Round-trip Airport Transfer Combo",
+            "noteTicket" : "This package includes the price of a room for 2 adults. Children under the height of 1 m (100 cm) can stay with their parents free of charge",
+            "amountTicket" : 200
+        },
+	    {
+            "valueTicket" : 4979000,
+            "typeTicket" : "[5D4N Stay] Mường Thanh Luxury Hotel & Round-trip Airport Transfer Combo",
+            "noteTicket" : "This package includes the price of a room for 2 adults. Children under the height of 1 m (100 cm) can stay with their parents free of charge",
+            "amountTicket" : 200
+        }
+    ],
+    "schedule" : [],
+    "galleries" : [
+        {
+            "id": 10,
+            "url": "",
+            "type": "image"
+        },
+        {
+            "id": 11,
+            "url": "",
+            "type": "image"
+        },
+        {
+            "id": 12,
+            "url": "",
+            "type": "image"
+        },
+        {
+            "id": 13,
+            "url": "",
+            "type": "image"
+        },
+        {
+            "id": 14,
+            "url": "",
+            "type": "image"
+        }
+    ]
+}
+
+	----------------------------------------------------------------------------------Vung Tau-------------------------------------------------------------------------------------------
+- Day Tour | Vung Tau Tour
+{
+    "service" : {
+        "name" : "Day Tour | Vung Tau Tour",
+        "address" : "112 Tran Hung Dao street, ward Pham Ngu Lao, district 1",
+        "description" : "Swim and relax at Thuy Van Beach. Experience the sacred ambiance of Whale Temple and the religious life of local fishermen. Visit and climb inside the Jesus Christ Statue",
+        "event" : "07:30 Pick you up from meeting point depart for Vung Tau. Breakfast en route. 9:00 am, on arrival Vung Tau and leisure time at Thuy Van beach (Back beach) - one of the nicest beaches in Vietnam with the shore runs for almost 10km, full with fine sands and white waves. Authentic Vietnamese lunch is served at a local restaurant. In the afternoon, visit the Jesus Christ Statue, Thang Tam Temple (Whale Temple), Bach Dinh (a.k.a. Villa Blanche in French or White Palace in English), Cape Nghinh Phong. Taking a short break. Back to Ho Chi Minh City around 18:00pm. End trip.",
+	    "note" : "Meeting Time 07:15. Departure Time 07:30",
+        "idArea" : 5,
+        "idCategory" : 4
+    },
+    "ticket" : [
+        {
+            "valueTicket" : 966030,
+            "typeTicket" : "Shared Tour (Adult)",
+            "noteTicket" : "Ages 10–65",
+            "amountTicket" : 200
+        },
+	    {
+            "valueTicket" : 718330,
+            "typeTicket" : "Shared Tour (Adult)",
+            "noteTicket" : "Ages 3–9",
+            "amountTicket" : 200
+        }
+    ],
+    "schedule" : [],
+    "galleries" : [
+        {
+            "id": 15,
+            "url": "",
+            "type": "image"
+        },
+        {
+            "id": 16,
+            "url": "",
+            "type": "image"
+        },
+        {
+            "id": 17,
+            "url": "",
+            "type": "image"
+        },
+        {
+            "id": 18,
+            "url": "",
+            "type": "image"
+        }
+    ]
+}
+
+-- Tropicana Park Admission Ticket
+{
+    "service" : {
+        "name" : "Tropicana Park Admission Ticket",
+        "address" : "Tropicana Ho Tram",
+        "description" : "Stepping through the signature Tiki Head greeting gate, visitors will be immediately impressed with the Totem column placed at the entrance of the Polynesian spirit, symbolizing the connection between man and nature, between the strength of spirit and nature. power of the gods.",
+        "event" : "The sea is calm and calm, where the Aboriginal people rest, relax and feel the tolerance of the sea. Lose yourself on a swim float, feel the gentle waves of the waves, and spend a good time with the whole family.",
+	    "note" : "09:30–17:30 (Last Entry: 16:30) all day. But Wednesday Closed",
+        "idArea" : 5,
+        "idCategory" : 1
+    },
+    "ticket" : [
+        {
+            "valueTicket" : 135000,
+            "typeTicket" : "Admission Ticket",
+            "noteTicket" : "Free child with height under 100 cm",
+            "amountTicket" : 200
+        }
+    ],
+    "schedule" : [],
+    "galleries" : [
+    {
+        "id": 42,
+        "url": "",
+        "type": "image"
+    },
+    {
+        "id": 43,
+        "url": "",
+        "type": "image"
+    },
+    {
+        "id": 44,
+        "url": "",
+        "type": "image"
+    },
+    {
+        "id": 45,
+        "url": "",
+        "type": "image"
+    }
+]
+}
+
+	----------------------------------------------------------------------------------Ho Chi Minh-------------------------------------------------------------------------------------------
+- Half Day Tour | Cu Chi Tunnels
+{
+    "service" : {
+        "name" : "Half Day Tour | Cu Chi Tunnels",
+        "address" : "57, Le Thi Hong Gam Street, District 1, Ho Chi Minh City",
+        "description" : "Explore Cu Chi Tunnels and admire the beautiful countryside along the way. Admire the masterpiece of 220-kilometer long tunnel underground system built during the Vietnam war. Learn more about history of resistance war of Vietnam against the American through document film. Challenge yourself at the shooting range (at your own expense)",
+        "event" : "Pick up at meeting point (the service provider's office) or from hotels in District 1 center. Depart for Cu Chi and it takes 1.5 hrs. On your way to Cu Chi from Ho Chi Minh City, you'll pass by the beautiful local countryside, where you can even see ducks and buffaloes cooling off in the river. You would hardly imagine the destruction and damage that once dominated this area, caused by bombs and mines. The Cu Chi Tunnels are a network of underground tunnels in Ho Chi Minh City, used as military base against US forces during The Resistance War against America and are often used as hiding spots or spy operations. The total length of tunnels reach a amazing number of 220 km, mostly constructed by hands, and contains rooms and chambers that met daily life needs: bedroom, kitchen, guerrilla hospital, etc. Simple-but-lethal traps were also set up around the area, making this base a fortress. Don't miss the trial of the legendary rifle AK-47 and enjoy local lunch (by your own expenses)",
+	    "note" : "For cancellations made at least 3 day(s) prior to selected date, a cancellation fee of 30% will apply. For cancellations made 1 to 2 days prior to selected date, a cancellation fee of 50% will apply. For cancellations made 0 to 0 days prior to selected date, a cancellation fee of 100% will apply",
+        "idArea" : 2,
+        "idCategory" : 1
+    },
+    "ticket" : [
+        {
+            "valueTicket" : 400000,
+            "typeTicket" : "Adult",
+            "noteTicket" : "Age 10 and over",
+            "amountTicket" : 200
+        },
+	    {
+            "valueTicket" : 300000,
+            "typeTicket" : "Child",
+            "noteTicket" : "Ages 5–9",
+            "amountTicket" : 200
+        }
+    ],
+    "schedule" : [
+        {
+            "time" : "08:00",
+            "quantityPerDay" : 20
+        },
+        {
+            "time" : "13:00",
+            "quantityPerDay" : 20
+        }
+    ],
+    "galleries" : [
+        {
+            "id": 19,
+            "url": "",
+            "type": "image"
+        },
+        {
+            "id": 20,
+            "url": "",
+            "type": "image"
+        },
+        {
+            "id": 21,
+            "url": "",
+            "type": "image"
+        },
+        {
+            "id": 22,
+            "url": "",
+            "type": "image"
+        }
+    ]
+}
+
+-------------------------------------------------------------------Kien giang
+ -- walking
+{
+    "service" : {
+        "name" : "Seawalking Experience At Hon Roi (Hotel Transfer Inclusive)",
+        "address" : "Phu Quoc Island, Kien Giang Province, Vietnam",
+        "description" : "Explore the seabed - admire hundreds of species of corals and millions of creatures on the seafloor without having to know how to swim. 99% safe with seabed astronaut helmet technology for the experience under the ocean as comfortable as on the ground. Have a safe and comfortable one-on-one tour guide",
+        "event" : "The car picks you up at the hotel and starts the journey. Board a cruise ship and transfer to Ocean World entertainment center at Hon Roi, located southwards of Phu Quoc island. Before arrival at Ocean World, boat will take you through a tour around islands in the Southern of Phu Quoc main island.",
+	    "note" : "Free shuttle bus at Hotel/Resort in Duong Dong. Free shuttle boat between main island and Ocean World at Roi Island. 1-time to experience sea walking and quick shower",
+        "idArea" : 3,
+        "idCategory" : 2
+    },
+    "ticket" : [
+        {
+            "valueTicket" : 1242000,
+            "typeTicket" : "Travelers",
+            "noteTicket" : "from VND 1,242,000/Traveler",
+            "amountTicket" : 200
+        },
+    ],
+    "schedule" : [
+        {
+            "time" : "08:30",
+            "quantityPerDay" : 20
+        },
+        {
+            "time" : "13:30",
+            "quantityPerDay" : 20
+        }
+    ],
+    "galleries" : [
+    {
+        "id": 23,
+        "url": "",
+        "type": "image"
+    },
+    {
+        "id": 24,
+        "url": "",
+        "type": "image"
+    },
+    {
+        "id": 25,
+        "url": "",
+        "type": "image"
+    },
+    {
+        "id": 26,
+        "url": "",
+        "type": "image"
+    },
+    {
+        "id": 27,
+        "url": "",
+        "type": "image"
+    }
+]
+}
+ -- fishing
+{
+    "service" : {
+        "name" : "Full Day Tour | Big Fishing Tour",
+        "address" : "Phu Quoc Island",
+        "description" : "Coming to Phu Quoc Island, besides relaxing, enjoy fresh seafood dishes here. An activity that you cannot miss is the Big Fishing Tour experience. You will be able to take a boat out to sea and fish by yourself with huge fish ranging from 3kg to 5kg. Then feel free to bring the spoils home and enjoy.",
+        "event" : "Tour guide picks you up at your hotel and departs for the program. Arriving at the port, you board the ship: The staff on board serve breakfast for you. Have breakfast and watch the sunrise over the sea. 
+Lunch on board - the loot just caught. You can continue to fish or swim and watch the coral",
+	    "note" : "Pick up point: your accommodation within Duong Dong Town, Phu Quoc Island. Pick up time: 05:00 AM. Drop off time: 15:00 PM. Duration: 10 hours",
+        "idArea" : 3,
+        "idCategory" : 2
+    },
+    "ticket" : [
+        {
+            "valueTicket" : 1674000,
+            "typeTicket" : "Adult",
+            "noteTicket" : "height of 140 cm and over required",
+            "amountTicket" : 200
+        },
+{
+            "valueTicket" : 1172000,
+            "typeTicket" : "Child",
+            "noteTicket" : "height of 100-139 cm required",
+            "amountTicket" : 200
+        },
+    ],
+    "schedule" : [],
+    "galleries" : [
+    {
+        "id": 28,
+        "url": "",
+        "type": "image"
+    },
+    {
+        "id": 29,
+        "url": "",
+        "type": "image"
+    },
+    {
+        "id": 30,
+        "url": "",
+        "type": "image"
+    },
+    {
+        "id": 31,
+        "url": "",
+        "type": "image"
+    }
+]
+}
+
+-- Grand World Phu Quoc Attraction Admission Ticket
+{
+    "service" : {
+        "name" : "Grand World Phu Quoc Attraction Admission Ticket",
+        "address" : "Grand World, Phu Quoc United Center, DT 45, Ganh Dau,Phu Quoc, Kien Giang, Vietnam",
+        "description" : "Visit Vietnam’s first Teddy Bear Museum with over 500 teddy bear displays. Unwind with a ride through a replica of Venice’s Grand Canal. Explore the super tourism-entertainment complex at Phu Quoc United Center featuring dozens of shows and breathtaking architecture, such as Vietnam’s largest bamboo construction",
+        "event" : "Immerse yourself in the European world when floating on the Venice canal. Take brilliant photos at the park of contemporary art!. Join the adventures of Indiana Jones in bear style! Explore countless teddy bear displays at the Teddy Bear Museum.",
+	    "note" : "Opening hours: Daily | 09:00 - 19:30. Water park operating hours: 10:00 - 18:00. Teddy Bear Museum opening hours: Daily | 8:00 - 22:00",
+        "idArea" : 3,
+        "idCategory" : 1
+    },
+    "ticket" : [
+        {
+            "valueTicket" : 200000,
+            "typeTicket" : "Teddy Bear Museum Ticket",
+            "noteTicket" : "Discover a vast collection of adorable teddy bears in Vietnam’s first Teddy Bear Museum.",
+            "amountTicket" : 200
+        },
+{
+            "valueTicket" : 300000,
+            "typeTicket" : "The Quintessence Of Vietnam",
+            "noteTicket" : "Have access to various shows of The Quintessence of Vietnam (day & night)",
+            "amountTicket" : 200
+        },
+{
+            "valueTicket" : 200000,
+            "typeTicket" : "Venice Water Taxi Ticket",
+            "noteTicket" : "Enjoy a romantic ride on the Grand Canal.",
+            "amountTicket" : 200
+        },
+    ],
+    "schedule" : [],
+    "galleries" : [
+    {
+        "id": 32,
+        "url": "",
+        "type": "image"
+    },
+    {
+        "id": 33,
+        "url": "",
+        "type": "image"
+    },
+    {
+        "id": 34,
+        "url": "",
+        "type": "image"
+    },
+    {
+        "id": 35,
+        "url": "",
+        "type": "image"
+    },
+    {
+        "id": 36,
+        "url": "",
+        "type": "image"
+    }
+]
+}
+
+-- Scuba Diving Experience In Phu Quoc
+{
+    "service" : {
+        "name" : "Scuba Diving Experience In Phu Quoc",
+        "address" : "Hon Roi Island",
+        "description" : "For people who want to explore marine life but you are not good at swimming or don't want to dive. Light and flexible movement when scuba diving beneath the ocean. Experience walking on the seabed and explore the undersea ecosystem",
+        "event" : "Our Car pick you up at the hotel and start the program. Then you will take boat to Hon Roi Island. At Hon Roi: Visit "Ocean World" - Phu Quoc's largest coral park. This is the most professional and large-scale marine sport and entertainment center at the moment. Back to the hotel.",
+	    "note" : "Insurance, Tour guide, Transportation by speedboat, Scuba diving equipments, Free shuttle car in the central area of ​​Duong Dong",
+        "idArea" : 3,
+        "idCategory" : 1
+    },
+    "ticket" : [
+        {
+            "valueTicket" : 1404000,
+            "typeTicket" : "Adult",
+            "noteTicket" : "height of 100 cm and over required",
+            "amountTicket" : 200
+        }
+    ],
+    "schedule" : [],
+    "galleries" : [
+    {
+        "id": 37,
+        "url": "",
+        "type": "image"
+    },
+    {
+        "id": 38,
+        "url": "",
+        "type": "image"
+    },
+    {
+        "id": 39,
+        "url": "",
+        "type": "image"
+    },
+    {
+        "id": 40,
+        "url": "",
+        "type": "image"
+    },
+    {
+        "id": 41,
+        "url": "",
+        "type": "image"
+    }
+]
+}
+
+-- Vinpearl Safari Phu Quoc Ticket
+{
+    "service" : {
+        "name" : "Vinpearl Safari Phu Quoc Ticket",
+        "address" : "Ganh Dau, Phu Quoc, Kien Giang Province, Vietnam",
+        "description" : "Go on a thrilling safari adventure together with your family and friends as you discover the wonders of the wild and get up close and friendly with its creatures. Feed the elephants at the Elephant House or the giraffes at the Giraffe Restaurant. Have an amazing time with the various activities and shows as you mingle with all kinds of animals.",
+        "event" : "Spend an exciting day among wild animals at Vinpearl Safari Park in Phu Quoc. Try to spot as many exotic animals and species as you can. Dance with the tribes as they perform parts of the traditional Zulu Dance right at the entrance gate in the morning and afternoon!",
+	    "note" : "Admission is free for children below 1m in height. For visitors who want to avail of the VIP Zoo Tour, please inquire onsite at any ticket booth. This tour can accommodate a maximum of 7 people per group and will start from 9:00 – 15:00.",
+        "idArea" : 3,
+        "idCategory" : 1
+    },
+    "ticket" : [
+        {
+            "valueTicket" : 650000,
+            "typeTicket" : "Vinpearl Safari Ticket",
+            "noteTicket" : "",
+            "amountTicket" : 200
+        }
+    ],
+    "schedule" : [],
+    "galleries" : [
+    {
+        "id": 46,
+        "url": "",
+        "type": "image"
+    },
+    {
+        "id": 47,
+        "url": "",
+        "type": "image"
+    },
+    {
+        "id": 48,
+        "url": "",
+        "type": "image"
+    },
+    {
+        "id": 49,
+        "url": "",
+        "type": "image"
+    },
+    {
+        "id": 50,
+        "url": "",
+        "type": "image"
+    }
+]
+}

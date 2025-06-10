@@ -1,0 +1,1372 @@
+{
+	"info": {
+		"_postman_id": "887a45cf-61f5-4d6b-a333-140d7add1b74",
+		"name": "Travel Service",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "17891706"
+	},
+	"item": [
+		{
+			"name": "User",
+			"item": [
+				{
+					"name": "Profile",
+					"item": [
+						{
+							"name": "Profile",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VybmFtZTEiLCJpYXQiOjE2Njc4OTUyNjQsImV4cCI6MTY2NzkzMTI2NH0.tuAB1OPR7QDB0v2NioUnk4Ew2KWguNxdSQNyvU-MgHqDxuatsS1jtYqOtjf7kiQfzfwMAMwv8quK1aeIAYW56g",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "http://localhost:8089/user/profile",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8089",
+									"path": [
+										"user",
+										"profile"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Profile",
+							"request": {
+								"method": "PUT",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VybmFtZTEiLCJpYXQiOjE2Njc4OTUyNjQsImV4cCI6MTY2NzkzMTI2NH0.tuAB1OPR7QDB0v2NioUnk4Ew2KWguNxdSQNyvU-MgHqDxuatsS1jtYqOtjf7kiQfzfwMAMwv8quK1aeIAYW56g",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"firstname\" : \"Lam\",\r\n    \"lastname\" : \"Nguyen\",\r\n    \"email\" : \"1234qwe\",\r\n    \"gender\" : \"Female\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8089//user/profile",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8089",
+									"path": [
+										"",
+										"user",
+										"profile"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "UpdateAvatar",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VybmFtZTEiLCJpYXQiOjE2Njc4OTUyNjQsImV4cCI6MTY2NzkzMTI2NH0.tuAB1OPR7QDB0v2NioUnk4Ew2KWguNxdSQNyvU-MgHqDxuatsS1jtYqOtjf7kiQfzfwMAMwv8quK1aeIAYW56g",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "file",
+											"type": "file",
+											"src": "/C:/Users/HP/Desktop/TravelService/HoChiMinh/1/ddcc1.png"
+										}
+									]
+								},
+								"url": {
+									"raw": "http://localhost:8089/avatar/upload",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8089",
+									"path": [
+										"avatar",
+										"upload"
+									],
+									"query": [
+										{
+											"key": "file",
+											"value": null,
+											"disabled": true
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Comment",
+					"item": [
+						{
+							"name": "Create Review",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VybmFtZTIiLCJpYXQiOjE2NjU2NzAzMjEsImV4cCI6MTY2NTY3MzkyMX0.8lAakvzpLPmyw74acubxQJcNdXP5qBgU27CkMfE8VLb49zPTah39CLtAKxNsIZK6BcmI7ju_kgkkUJ09c7nGWg",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "idService",
+											"value": "6",
+											"type": "text"
+										},
+										{
+											"key": "content",
+											"value": "tệ, haizl",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "http://localhost:8087/customer/review",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8087",
+									"path": [
+										"customer",
+										"review"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Update Review",
+							"request": {
+								"method": "PUT",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJuaWxuZ3V5ZW4yIiwiaWF0IjoxNjYyMjEzMzA2LCJleHAiOjE2NjIyMTY5MDZ9.QdcsN3sfL0R2k64OCSwhvj48E411KqFxvmon3PdiCPhsRcnB46V3HHYufdG7xaDRI-6fhJi0Kr8Rp5uYVFq1wg",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "content",
+											"value": "Thiet la dep luon a tr",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "http://localhost:8085/customer/review/3",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8085",
+									"path": [
+										"customer",
+										"review",
+										"3"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Delete Review",
+							"request": {
+								"method": "DELETE",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJuaWxuZ3V5ZW4yIiwiaWF0IjoxNjYyMjEzMzA2LCJleHAiOjE2NjIyMTY5MDZ9.QdcsN3sfL0R2k64OCSwhvj48E411KqFxvmon3PdiCPhsRcnB46V3HHYufdG7xaDRI-6fhJi0Kr8Rp5uYVFq1wg",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "http://localhost:8085/customer/review/3",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8085",
+									"path": [
+										"customer",
+										"review",
+										"3"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Order",
+					"item": [
+						{
+							"name": "Create Order",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VybmFtZTEiLCJpYXQiOjE2NjcyMTU5MTMsImV4cCI6MTY2NzI1MTkxM30.1Q3asWpbU40r7EsktPm1nXinNpP2-PaL63B_O4SlNYJcidN8tQSSFlL7TXmaKlJeCzBpWFSIN-kfGIGWUrr1AQ",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"infor\" : {\r\n        \"fullname\" : \"Chau Ga Đil\",\r\n        \"email\" : \"nilnguyenkl@gmail.com\",\r\n        \"phone\" : \"0946825770\"\r\n    },\r\n    \"statusOrder\" : true,\r\n    \"items\" : [\r\n        {\r\n            \"idCartItem\" : 1,\r\n            \"idService\": 6,\r\n            \"bookDay\" : \"2022-11-13\",\r\n            \"bookTime\" : \"08:00\",\r\n            \"note\" : \"ten ten\",\r\n            \"tickets\": [\r\n                {\r\n                    \"idTicket\": 10,\r\n                    \"valueTicket\": 450000,\r\n                    \"typeTicket\": \"Người lớn\",\r\n                    \"amountTicket\": 10,\r\n                    \"note\": \"Từ 10 tuổi trở lên\"\r\n                },\r\n                {\r\n                    \"idTicket\": 11,\r\n                    \"valueTicket\": 340000,\r\n                    \"typeTicket\": \"Trẻ em\",\r\n                    \"amountTicket\": 5,\r\n                    \"note\": \"5 - 9 tuổi\"\r\n                }\r\n            ]\r\n        }\r\n    ]\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8089/order",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8089",
+									"path": [
+										"order"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get Orders",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VybmFtZTEiLCJpYXQiOjE2NjcyMTU5MTMsImV4cCI6MTY2NzI1MTkxM30.1Q3asWpbU40r7EsktPm1nXinNpP2-PaL63B_O4SlNYJcidN8tQSSFlL7TXmaKlJeCzBpWFSIN-kfGIGWUrr1AQ",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "http://localhost:8089/orders?page=1&limit=2&sort=DESC",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8089",
+									"path": [
+										"orders"
+									],
+									"query": [
+										{
+											"key": "page",
+											"value": "1"
+										},
+										{
+											"key": "limit",
+											"value": "2"
+										},
+										{
+											"key": "sort",
+											"value": "DESC"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get Order Details",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VybmFtZTEiLCJpYXQiOjE2NjcxMzU4MDYsImV4cCI6MTY2NzE3MTgwNn0.v3r7f7hypNRkZ4uCPGe2ynDrtdoKHROu4aaatIORHnwqUhWoDp6YctI70h1Tt_osCBCY2wmwIaLMv7X3ETVyVg",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "http://localhost:8089/order/10",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8089",
+									"path": [
+										"order",
+										"10"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Calender Event",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VybmFtZTIiLCJpYXQiOjE2NjYyNTcwNjIsImV4cCI6MTY2NjI2MDY2Mn0.Q_945unz5wAD9PbEyy9mRVVEILUPUoqJ8-fZhkrBmKplQoVIYN-hTQtK9qqiHB3Emk4qGsLVfM9BvHpkSj9GCA",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "http://localhost:8089/order/calender",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8089",
+									"path": [
+										"order",
+										"calender"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Range Order",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8089/order/range?idService=6&day=2022-11-12",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8089",
+									"path": [
+										"order",
+										"range"
+									],
+									"query": [
+										{
+											"key": "idService",
+											"value": "6"
+										},
+										{
+											"key": "day",
+											"value": "2022-11-12"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get OrderItem By Status",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VybmFtZTEiLCJpYXQiOjE2NjgwNjc5MTAsImV4cCI6MTY2ODEwMzkxMH0.4i-j_pwbxrfP3q7QeyBpef1GX0ZSJpY1GA1Y4gR26bTmGrslRZz91TtMqDc7yrnd0iFbCSSW_7B963ucy_Moxw",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "http://localhost:8089/orderitem/waiting",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8089",
+									"path": [
+										"orderitem",
+										"waiting"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "UpdateStatusOrderItem",
+							"request": {
+								"method": "GET",
+								"header": []
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Cart",
+					"item": [
+						{
+							"name": "Update Cart",
+							"request": {
+								"method": "PUT",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VybmFtZTEiLCJpYXQiOjE2NjcwNDg3OTgsImV4cCI6MTY2NzA4NDc5OH0.jbC5ScXTmOMtjz-0s2Je6ZuF4_RoC311JUtfql9A5_xZJZYQJwwV5zzUr026Hks4o07sdkfxEP6IXEbx1G-5IA",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"idService\": 1,\r\n    \"name\": \"Tour 3 Đảo Phú Quốc: Hòn Móng Tay, Hòn Gầm Ghì Và Hòn Mây Rút\",\r\n    \"description\": \"Đặt ngay tour du lịch Phú Quốc tại KKday, đến khám phá nét đẹp khó cưỡng của khu vực phía Nam Đảo Phú Quốc, hay còn gọi là Đảo Ngọc Việt Nam. Bắt đầu hành trình đến Hòn Móng Tay, chiêm ngưỡng khung cảnh đại dương bất tận, thoả thích bơi lội dưới làn nước trong xanh tươi mát hay thư giãn tắm nắng trên những bãi cát trắng nắng vàng. Ngồi thuyền tham quan quanh Hòn Gầm Ghì, ngắm nhìn vẻ đẹp nhiệt đới và tận hưởng không khí biển đảo tươi mát, sảng khoái. Thưởng thức bữa trưa thịnh soạn trên thuyền, nghỉ ngơi nạp năng lượng cho hành trình chinh phục tiếp theo. Trải nghiệm lặn biển tại Hòn Mây Rút khám phá thế giới dưới nước và tận mắt chứng kiến vương quốc san hô nhiều màu sắc ngay dưới dòng nước biển. Dành trọn một ngày chinh phục hòn đảo xinh đẹp với tour du lịch Phú Quốc này nhé!\",\r\n    \"bookDay\": \"2020-12-21\",\r\n    \"bookTime\": \"21-11-00\",\r\n    \"tickets\": [\r\n        {\r\n            \"idTicket\": 1,\r\n            \"valueTicket\": 600000,\r\n            \"typeTicket\": \"Người lớn\",\r\n            \"amountTicket\": 11,\r\n            \"note\": \"\"\r\n        },\r\n        {\r\n            \"idTicket\": 2,\r\n            \"valueTicket\": 471000,\r\n            \"typeTicket\": \"Người lớn\",\r\n            \"amountTicket\": 11,\r\n            \"note\": \"\"\r\n        }\r\n    ]\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8089/cart/4",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8089",
+									"path": [
+										"cart",
+										"4"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Delete Cart",
+							"request": {
+								"method": "DELETE",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VybmFtZTIiLCJpYXQiOjE2NjY4ODE5OTcsImV4cCI6MTY2NjkxNzk5N30.oY3MR5KfgbKuIicNQAThAege6OKPlh59VI-3gUaz6Wrm030yVZgU2s51zbgpeCUjpb1d-cpApcCV8GjAd5SbRw",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "http://localhost:8089/cart/3",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8089",
+									"path": [
+										"cart",
+										"3"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get Cart",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VybmFtZTEiLCJpYXQiOjE2NjcyODM5NzYsImV4cCI6MTY2NzMxOTk3Nn0.UewmhpGoA1EE9zRXXB-0lOu9dro2SHDO-eXAblx6R4KO0lRmfPdDUhzd2RRBGeokMK8mkkOSegxqOUwSrE_Tvw",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "http://localhost:8089/cart?page=1&limit=2&sort=ASC",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8089",
+									"path": [
+										"cart"
+									],
+									"query": [
+										{
+											"key": "page",
+											"value": "1"
+										},
+										{
+											"key": "limit",
+											"value": "2"
+										},
+										{
+											"key": "sort",
+											"value": "ASC"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Create Cart",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VybmFtZTEiLCJpYXQiOjE2NjcyODM5NzYsImV4cCI6MTY2NzMxOTk3Nn0.UewmhpGoA1EE9zRXXB-0lOu9dro2SHDO-eXAblx6R4KO0lRmfPdDUhzd2RRBGeokMK8mkkOSegxqOUwSrE_Tvw",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"idService\": 6,\r\n  \"bookDay\": \"2020-12-21\",\r\n  \"bookTime\": \"08:00\",\r\n  \"tickets\": [\r\n    {\r\n      \"idTicket\": 10,\r\n      \"amountTicket\": 10\r\n    },\r\n    {\r\n      \"idTicket\": 11,\r\n      \"amountTicket\": 5\r\n    }\r\n  ]\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8089/cart",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8089",
+									"path": [
+										"cart"
+									],
+									"query": [
+										{
+											"key": "",
+											"value": "",
+											"disabled": true
+										},
+										{
+											"key": "",
+											"value": null,
+											"disabled": true
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Admin",
+			"item": [
+				{
+					"name": "Service",
+					"item": [
+						{
+							"name": "Create Service",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJuaWxuZ3V5ZW4iLCJpYXQiOjE2NjQ5NTkzODQsImV4cCI6MTY2NDk2Mjk4NH0.EvTUvd5Xwo24IOIkWbwLjWx6Q6DiT8Klou1xDmDsUGb0loKaz0jYi7QttWbmwEA5MuEmgXyQAhuTbgkuiSrPcg",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"service\" : {\r\n        \"name\" : \"Tour Nửa Ngày | Tham Quan Địa Đạo Củ Chi\",\r\n        \"address\" : \"57 Lê Thị Hồng Gấm, Phường Nguyễn Thái Bình, Quận 1, Thành phố Hồ Chí Minh\",\r\n        \"description\" : \"Khám phá Địa đạo Củ Chi và ngắm cảnh đẹp vùng nông thôn trên đường đi. Chiêm ngưỡng kiệt tác hệ thống đường hầm dài 220 km được xây dựng trong chiến tranh Việt Nam. Tìm hiểu thêm về lịch sử kháng chiến chống Mỹ cứu nước của Việt Nam qua phim tài liệu. Thử thách bản thân ở trường bắn (với chi phí tự túc)\",\r\n        \"event\" : \"Xe và hướng dẫn viên sẽ đón quý khách tại khách sạn hoặc tại văn phòng của nhà cung cấp tour. Trên đường đến Củ Chi từ Thành phố Hồ Chí Minh, ngắm nhìn vùng nông thôn ngoại thành xinh đẹp trên đường đi, với những con vịt và trâu đang tắm mát trên sông. Giữa khung cảnh yên bình đó, du khách sẽ khó có thể tưởng tượng được sự tàn phá và thiệt hại mà bom mìn từng gây ra cho vùng đất này. Địa đạo Củ Chi là một mạng lưới địa đạo ngầm ở Tp.HCM, được sử dụng làm căn cứ trong cuộc kháng chiến chống Mỹ cứu nước và được sử dụng làm nơi ẩn náu hoặc hoạt động gián điệp. Tổng chiều dài của đường hầm lên tới con số đáng kinh ngạc là 220 km, hầu hết được xây dựng bằng tay và dụng cụ thô sơ, với các phòng đáp ứng nhu cầu sinh hoạt: phòng ngủ, nhà bếp, bệnh viện dã chiến, v.v. Những chiếc bẫy đơn giản nhưng nguy hiểm cũng được thiết lập xung quanh khu vực biến Củ Chi trở nên bất khả xâm phạm.\",\r\n        \"note\" : \"Giá dịch vụ bao gồm: Hướng dẫn viên, Đưa đón và di chuyển bằng xe đời mới máy lạnh, Chi phí tham quan (khu địa đạo Bến Đình), Nước đóng chai và khăn ướt. Không bao gồm : Chi tiêu cá nhân Bảo hiểm, Chi phí bắn súng AK-47, Các bữa ăn, Đón các khu vực ngoài điểm tập trung và các tuyến phố đã đề cập\",\r\n        \"idArea\" : 2,\r\n        \"idCategory\" : 1\r\n    },\r\n    \"ticket\" : [\r\n        {\r\n            \"valueTicket\" : 450000,\r\n            \"typeTicket\" : \"Người lớn\",\r\n            \"noteTicket\" : \"Từ 10 tuổi trở lên\",\r\n            \"amountTicket\" : 200\r\n        },\r\n\t{\r\n            \"valueTicket\" : 340000,\r\n            \"typeTicket\" : \"Trẻ em\",\r\n            \"noteTicket\" : \"5 - 9 tuổi\",\r\n            \"amountTicket\" : 200\r\n        },\r\n\t{\r\n            \"valueTicket\" : 225000,\r\n            \"typeTicket\" : \"Trẻ nhỏ\",\r\n            \"noteTicket\" : \"1 - 4 tuổi\",\r\n            \"amountTicket\" : 200\r\n        }\r\n    ],\r\n    \"schedule\" : [\r\n        {\r\n            \"time\" : \"08:00\",\r\n            \"quantityPerDay\" : 20\r\n        },\r\n        {\r\n            \"time\" : \"13:00\",\r\n            \"quantityPerDay\" : 20\r\n        }\r\n    ],\r\n    \"galleries\" : [\r\n        {\r\n            \"id\": 13,\r\n            \"url\": \"\",\r\n            \"type\": \"image\"\r\n        },\r\n        {\r\n            \"id\": 14,\r\n            \"url\": \"\",\r\n            \"type\": \"image\"\r\n        },\r\n        {\r\n            \"id\": 15,\r\n            \"url\": \"\",\r\n            \"type\": \"image\"\r\n        },\r\n        {\r\n            \"id\": 16,\r\n            \"url\": \"\",\r\n            \"type\": \"image\"\r\n        }\r\n    ]\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8087/admin/service",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8087",
+									"path": [
+										"admin",
+										"service"
+									],
+									"query": [
+										{
+											"key": "",
+											"value": null,
+											"disabled": true
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Update Service",
+							"request": {
+								"method": "PUT",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJuaWxuZ3V5ZW4iLCJpYXQiOjE2NjgxNTA3ODIsImV4cCI6MTY2ODE4Njc4Mn0.-LwAHyZ0GVzJhLpauhFfyfRV9eaRvgKPVdJowxrCkodUg0hebGNFNG5_WEglc2yZTTmvg1o59W05D86lYLG2zA",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"service\" : {\r\n        \"name\" : \"hehe\",\r\n        \"address\" : \"address nee3\",\r\n        \"description\" : \"mo ta nee3\",\r\n        \"event\" : \"su kien ne3\",\r\n        \"note\" : \"ghi chu nee3\"\r\n    },\r\n    \"ticket\" : [\r\n        {\r\n            \"idTicket\" : 12,\r\n            \"valueTicket\" : 11,\r\n            \"typeTicket\" : \"Nguoi lonn\",\r\n            \"noteTicket\" : \"ten tne\",\r\n            \"amountTicket\" : 30\r\n        },\r\n        {\r\n            \"idTicket\" : 13,\r\n            \"valueTicket\" : 100001,\r\n            \"typeTicket\" : \"Nguoi nho\",\r\n            \"noteTicket\" : \"asdasd\",\r\n            \"amountTicket\" : 31\r\n        }\r\n    ],\r\n    \"schedule\" : [\r\n        {\r\n            \"id\" : 6,\r\n            \"time\" : \"20:20\",\r\n            \"quantityPerDay\" : 20\r\n        },\r\n        {\r\n            \"id\" : 7,\r\n            \"time\" : \"20:25\",\r\n            \"quantityPerDay\" : 20\r\n        }\r\n    ],\r\n    \"galleries\" : [\r\n        {\r\n            \"id\": 17,\r\n            \"url\": \"\",\r\n            \"type\": \"image\"\r\n        },\r\n        {\r\n            \"id\": 18,\r\n            \"url\": \"\",\r\n            \"type\": \"image\"\r\n        },\r\n        {\r\n            \"id\": 19,\r\n            \"url\": \"\",\r\n            \"type\": \"image\"\r\n        }\r\n    ]\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8089/admin/service/7",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8089",
+									"path": [
+										"admin",
+										"service",
+										"7"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Upload Galleries",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJuaWxuZ3V5ZW4iLCJpYXQiOjE2NjQ5NTkzODQsImV4cCI6MTY2NDk2Mjk4NH0.EvTUvd5Xwo24IOIkWbwLjWx6Q6DiT8Klou1xDmDsUGb0loKaz0jYi7QttWbmwEA5MuEmgXyQAhuTbgkuiSrPcg",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "files",
+											"type": "file",
+											"src": [
+												"/C:/Users/HP/Desktop/TravelService/HoChiMinh/1/ddcc1.png",
+												"/C:/Users/HP/Desktop/TravelService/HoChiMinh/1/ddcc2.png",
+												"/C:/Users/HP/Desktop/TravelService/HoChiMinh/1/ddcc3.png",
+												"/C:/Users/HP/Desktop/TravelService/HoChiMinh/1/ddcc4.png"
+											]
+										}
+									]
+								},
+								"url": {
+									"raw": "http://localhost:8087/admin/upload",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8087",
+									"path": [
+										"admin",
+										"upload"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Delete Galleries",
+							"request": {
+								"method": "DELETE",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJuaWxuZ3V5ZW4xIiwiaWF0IjoxNjYyMzkwNzQ3LCJleHAiOjE2NjIzOTQzNDd9.kPtbhmPF4-buKCj_0jpgD_L_Sbeya6kcbhKTF4fYTf8dPPkNKQx0U2ZMFsHRoc2M3XTAP3yFiq4c1O1Au-VYoA",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "formdata",
+									"formdata": [
+										{
+											"key": "publicId",
+											"value": "gtxmg3vkn3zgcucecpw1",
+											"type": "text"
+										}
+									]
+								},
+								"url": {
+									"raw": "http://localhost:8085/admin/delete/20",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8085",
+									"path": [
+										"admin",
+										"delete",
+										"20"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Get Services",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJuaWxuZ3V5ZW4iLCJpYXQiOjE2NjgxNTA3ODIsImV4cCI6MTY2ODE4Njc4Mn0.-LwAHyZ0GVzJhLpauhFfyfRV9eaRvgKPVdJowxrCkodUg0hebGNFNG5_WEglc2yZTTmvg1o59W05D86lYLG2zA",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "http://localhost:8089/admin/service",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8089",
+									"path": [
+										"admin",
+										"service"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "New Request",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8089/admin/serviceDetails?idService=7",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8089",
+									"path": [
+										"admin",
+										"serviceDetails"
+									],
+									"query": [
+										{
+											"key": "idService",
+											"value": "7"
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Ticket",
+					"item": [
+						{
+							"name": "Create Ticket",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJuaWxuZ3V5ZW4xIiwiaWF0IjoxNjYyMzgyNjE1LCJleHAiOjE2NjIzODYyMTV9.60vUicoHnSyOc6heCq8Bz83DcxqXFIhxupsqCCfPLdUx0oZjN32tZa7eP8sC6gRlDUcWpgNSBJ2F6CeyOGMHsA",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n    \"idService\" : 4,\r\n    \"valueTicket\" : 10,\r\n    \"typeTicket\" : \"Nguoi lon\",\r\n    \"noteTicket\" : \"adasds\",\r\n    \"amountTicket\" : 30\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8085/admin/ticket",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8085",
+									"path": [
+										"admin",
+										"ticket"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "Create Schedule",
+							"request": {
+								"method": "GET",
+								"header": []
+							},
+							"response": []
+						}
+					]
+				},
+				{
+					"name": "Profile",
+					"item": []
+				},
+				{
+					"name": "Order",
+					"item": [
+						{
+							"name": "New Request",
+							"request": {
+								"method": "GET",
+								"header": []
+							},
+							"response": []
+						},
+						{
+							"name": "New Request",
+							"request": {
+								"method": "GET",
+								"header": []
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Auth",
+			"item": [
+				{
+					"name": "Register",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"username\" : \"username2\",\r\n    \"email\" : \"\",\r\n    \"phone\" : \"\",\r\n    \"password\" : \"123456\",\r\n    \"idRole\" : 2\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8087/auth/register",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8087",
+							"path": [
+								"auth",
+								"register"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "RefreshToken",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"refreshToken\" : \"4f9a9298-5070-4523-b4f2-010e36197577\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8089/auth/refreshtoken",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8089",
+							"path": [
+								"auth",
+								"refreshtoken"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ForgotPassword",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJxdW9jbmlsNyIsImlhdCI6MTY2MTQxMDMyOCwiZXhwIjoxNjYxNDEzOTI4fQ.Lp4OIDLArPTjwEAE6UMB9b3h194RpWoX2ZmTpwPree8D4mNOj2ZJ7EPesylDScZAZtHhEj8HBNj-YVSghoYIuw",
+								"type": "text",
+								"disabled": true
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"email\" : \"nilnguyen123456@gmail.com\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8084/auth/forgotpassword",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8084",
+							"path": [
+								"auth",
+								"forgotpassword"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ResetPassword",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"token\" : \"KxS8iYbzqyabGU7rA2S8dYEEOsuGX2\",\r\n    \"newPassword\" : \"123456789\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8084/auth/resetpassword",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8084",
+							"path": [
+								"auth",
+								"resetpassword"
+							],
+							"query": [
+								{
+									"key": "",
+									"value": null,
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"username\" : \"username1\",\r\n    \"password\" : \"123456\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8089/auth/login",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8089",
+							"path": [
+								"auth",
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "ChangePassword",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"username\" : \"nilnguyen\",\r\n    \"oldPassword\" : \"1234567\",\r\n    \"newPassword\" : \"123456\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8089/auth/changepassword",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8089",
+							"path": [
+								"auth",
+								"changepassword"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Public",
+			"item": [
+				{
+					"name": "Service",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8089/public/service?page=1&limit=4",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8089",
+							"path": [
+								"public",
+								"service"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "1"
+								},
+								{
+									"key": "limit",
+									"value": "4"
+								},
+								{
+									"key": "category",
+									"value": "1",
+									"disabled": true
+								},
+								{
+									"key": "sort",
+									"value": "AscOrders",
+									"disabled": true
+								},
+								{
+									"key": "area",
+									"value": "1",
+									"disabled": true
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "New Request",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9200/service/_doc/5",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9200",
+							"path": [
+								"service",
+								"_doc",
+								"5"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Area",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8087/public/area",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8087",
+							"path": [
+								"public",
+								"area"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Category",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8087/public/category",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8087",
+							"path": [
+								"public",
+								"category"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Service Details",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8089/public/serviceDetails?idService=6",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8089",
+							"path": [
+								"public",
+								"serviceDetails"
+							],
+							"query": [
+								{
+									"key": "idService",
+									"value": "6"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "About App",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "FavoriteArea",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8089/public/favoriteArea",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8089",
+							"path": [
+								"public",
+								"favoriteArea"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "FavoriteService",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Favorite",
+			"item": [
+				{
+					"name": "New Request",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VybmFtZTEiLCJpYXQiOjE2NjU3MzQ5MjIsImV4cCI6MTY2NTczODUyMn0.58D6GkcWJeLHagR7LZsEk8y4Lv6QgETY6FB52ihGuoYr4lhFj3HY0-lwSvUTU3HqFGqAbCCvfCOTXO0YIuhgZQ",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:8089/favorite",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8089",
+							"path": [
+								"favorite"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "New Request",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VybmFtZTEiLCJpYXQiOjE2NjY3OTExNzgsImV4cCI6MTY2Njc5NDc3OH0.3B87chinfwHlsRrTmXzee4Yg0-WdcVA68K0zKahh6F2dUY-oe-00SEAe9ChA-WfzoK2cJvFSKurcLvc8Lq5ctg",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:8089/favorite?idService=3",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8089",
+							"path": [
+								"favorite"
+							],
+							"query": [
+								{
+									"key": "idService",
+									"value": "3"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "New Request",
+					"request": {
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VybmFtZTEiLCJpYXQiOjE2NjU2NzY4ODgsImV4cCI6MTY2NTY4MDQ4OH0.T5RIRYTlMDIoG6c7LPBRUjOedzntY9YpmuqrLjT2XmGzLsnObN33FUJ93hX0JCqk_T8oy9QwUSMSi8A0Uutk8g",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "http://localhost:8089/favorite?idService=3",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8089",
+							"path": [
+								"favorite"
+							],
+							"query": [
+								{
+									"key": "idService",
+									"value": "3"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Elasticsearch",
+			"item": [
+				{
+					"name": "New Request",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9200/service",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9200",
+							"path": [
+								"service"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "New Request",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9200/service",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9200",
+							"path": [
+								"service"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

@@ -54,8 +54,8 @@ public class UserService implements IUserService, UserDetailsService {
 	@Override
 	public RegisterResponseStatus createUser(RegisterRequest request) {
 		
-		String female = "https://res.cloudinary.com/nilnguyen/image/upload/v1667472751/TravelServiceDefault/woman-avatar_nkoqe3.png";
-		String male = "https://res.cloudinary.com/nilnguyen/image/upload/v1667472751/TravelServiceDefault/male-user_idplqw.png";
+		String female = ""; // Provide URL for woman avatar image
+		String male = ""; // Provide URL for man avatar image
 		
 		UserEntity user1 = userRepository.findOneByUsername(request.getUsername());
 		
